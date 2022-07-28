@@ -5,7 +5,7 @@ import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 export default class CalcButton extends React.Component{
     
     static defaultProps={
-        onPress: function() {},
+        onPress: function() { },
         title :"",
         color: "white",
         backgroundColor:"black",
